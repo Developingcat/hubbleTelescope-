@@ -1,0 +1,157 @@
+/* CSS Document */
+/* Hannah O'Shea, 1/29/2024 
+File Name: styles.css */
+
+
+/* Fonts in use: Rubik, Armio, sans-serif */
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Noto+Serif&family=Rubik:wght@300&display=swap');
+
+
+/* CSS RESET */
+
+head, title, body, nav, ul, li, main, footer {
+	marigin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*Header Rules */
+
+h2, h1,blockquote {
+	text-align: center;
+	font-size: 2.4em;
+}
+
+header { 
+ background-color: #8B5C46;
+ color: #452016;
+ font-family:Rubik, Armio, 'sans-serif';
+}
+
+/* Constellation Name Rules */ 
+h1 {
+	color: #1F2134;
+	background: #69768F;
+}
+
+/* End Header Rules */
+/*Hero Image Rules */
+
+img {
+	display: block;
+	align-content: center;
+	padding: 0 0 56px 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+.center {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+/* End Rules for Hero Image */
+/* Navigation Rules */
+
+nav {
+	width: 70%;
+	margin: 5em 3em 0 0;
+	font-weight:bold;
+}
+
+nav ul {
+	list-style-type: none;
+	margin:0;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav li {
+	display:inline-block;
+	font-size: 2em;
+	font-family: Rubik, Armio, 'sans-serif';
+}
+
+nav li:last-child {
+	border-right:none;
+}
+
+nav li a:hover {
+	background: #191A2B;
+	color: #D4DEF4;
+}
+
+
+nav li a {
+	display:inline-block;
+	color: #1B1C33;
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+}
+/* Navigation Rule List End */
+/*Body rules*/
+
+body {
+	background: #2E394F;
+	font-family:Rubik, Armio, 'sans-seif';
+}
+
+body h4 {
+	text-align: center;
+	font-weight: bold; 
+	color: #69768F; 
+	background: #15181D;
+	border-radius: 13px 13px 13px 13px;
+	border: 20px 20px 20px 20px;
+}
+
+p {
+	background: #69768F; 
+	border-radius: 12px 13px 12px 13px; 
+	border-color: #8E614F;
+	text-align: center;
+}
+/* End Body Rules */
+/* Main content rules */
+
+main {
+	clear: left;
+	padding: 4%;
+	font-size: 1.25em;
+	font-family: Rubik, Armio, 'sans-seif' ;
+	background: #414754;
+}
+/*End Main Content Rules */
+
+/* NGC5033 RULES */
+
+.photo {
+	max-height: 100%;
+	max-width:100%;
+	border-radius: 14px 14px 14px 14px; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	
+}
+
+/* End NGC5033 Rules */ 
+/*Footer rules*/
+
+footer {
+	
+	font-size: 0.75em;
+	text-align: center;
+	color:#D4DEF4;
+	
+}
+footer p {
+	color: #000000;
+	background:#2E394F 
+}
+
+
+
+
